@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export interface IEducationItem {
     title: string;
+    school: string;
     institute: string;
     startingYear: string;
     endingYear: string | null;
@@ -22,13 +23,17 @@ const StyledEducationItem = styled.div`
     span {
         font-size: 15px;
     }
+    > img {
+        width: 200px;
+    }
 `;
 
-const EducationItem = ({title, institute, startingYear, endingYear}: IEducationItem) => {
+const EducationItem = ({title, school, institute, startingYear, endingYear}: IEducationItem) => {
     return (
         <StyledEducationItem>
+            <img src={`../assets/logos/${school.toLowerCase()}.webp`} alt={institute.toLowerCase()} style={{margin: 8}}/>
             <h3>{title}</h3>
-            <span>{institute}, {startingYear} - {endingYear}</span>
+            <span>{startingYear} - {endingYear}</span>
         </StyledEducationItem>
     )
 }

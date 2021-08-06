@@ -1,7 +1,8 @@
-import React from 'react'
-import styled from 'styled-components';
 import { Badge, Tooltip } from '@chakra-ui/react';
 import { config, themeConfig } from '../../config';
+
+import React from 'react'
+import styled from 'styled-components';
 
 const StyledWhatIKnowItem = styled.div`
     margin: 0 2em;
@@ -49,7 +50,7 @@ const WhatIKnowItem = ({logo, name, isCurrentlyUsing = false}: IWhatIKnowItem) =
                 <Badge variant="solid" colorScheme="red">Using</Badge>
             </StyledBadgeContainer>}
             <Tooltip gutter={16} hasArrow label={name} bg={themeConfig[config.theme].darker} placement="top">
-                <img src={`./assets/usages/${logo}.png`} alt={name} />   
+                <img src={`./assets/usages/${logo}.webp`} alt={name} />   
             </Tooltip>
         </StyledWhatIKnowItem>
     )

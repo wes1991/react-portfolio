@@ -1,7 +1,8 @@
+import { config, themeConfig } from '../../config';
+
+import { IWorkplace } from './WorkExperience';
 import React from 'react'
 import styled from 'styled-components';
-import { config, themeConfig } from '../../config';
-import { IWorkplace } from './WorkExperience';
 
 const StyledWorkplaceItem = styled.div`
     display: flex;
@@ -36,7 +37,7 @@ const StyledWorkplaceDates = styled.div`
 const WorkplaceItem = ({company, title, startingYear, endingYear, showWorkplaceName = false, showWorkplaceImage = false, isLast = false }: IWorkplace & {isLast: boolean}) => {
     return (
         <StyledWorkplaceItem>
-            {showWorkplaceImage && <img src={`./assets/logos/${company.toLowerCase()}.png`} alt={company.toLowerCase()} />}
+            {showWorkplaceImage && <img src={`../assets/logos/${company.toLowerCase()}.webp`} alt={company.toLowerCase()} style={{margin: 8}}/>}
             {showWorkplaceName && company}
             <StyledWorkplaceTitle>{title}</StyledWorkplaceTitle>
             <StyledWorkplaceDates>{startingYear} - {endingYear ?? 'Present'}</StyledWorkplaceDates>

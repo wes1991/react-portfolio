@@ -1,71 +1,66 @@
 {
     "header": {
-        "name": "Nir Tzezana",
-        "title": "Full Stack Software Engineer",
+        "name": "Wesley Bench",
+        "title": "Front End Engineer & UI/UX Designer",
         "showProfilePic": false,
-        "cvLink": "http://www.walla.co.il",
-        "linkedIn": "https://www.linkedin.com/in/nir-tzezana-918a376b/",
-        "stackOverflow": "https://stackoverflow.com/users/2324434/nir-tzezana",
+        "cvLink": "http://www.google.com",
+        "linkedIn": "https://www.linkedin.com/in/wesley-bench/",
+        "stackOverflow": "",
         "facebook": "",
         "instagram": "",
-        "github": "https://github.com/nirtz89"
+        "github": "https://github.com/wes1991"
     },
     "modules": [
         {
             "type": "about",
             "data": {
-                "about": "I'm Nir, I hold a BSc in Information systems. I'm an avid learner, I like what I do and I'm not afraid of trying out new technologies and adopting them as I see fit. I currently work as a Full stack Engineer at Microsoft™.",
+                "about": "I care about delivering an aesthetically pleasing and functionally optimal user experience. I try to achieve that by working hand-in-hand with designers, marketing, developers, and with the clients directly when possible.",
                 "education": {
                     "title": "Education",
                     "data": [
-                    {
-                        "title": "BSc Information Systems",
-                        "institute": "University of Haifa",
-                        "startingYear": "2014",
-                        "endingYear": "2018"
-                    },
-                    {
-                        "title": "BA Psychology",
-                        "institute": "The Open University",
-                        "startingYear": "2020",
-                        "endingYear": "2022"
-                    }]
+                        {
+                            "title": "BS Computer Science",
+                            "school": "MSU",
+                            "institute": "Missouri State University",
+                            "startingYear": "2015",
+                            "endingYear": "2012"
+                        },
+                        {
+                            "title": "Associates of Arts",
+                            "school": "OTC",
+                            "institute": "Ozark Technical Community College",
+                            "startingYear": "2010",
+                            "endingYear": "2012"
+                        }
+                    ]
                 }
             },
-            "title": "About"
+            "title": "About Me"
         },
         {
             "type": "workExperience",
             "data": [
                 {
-                    "company": "Microsoft",
-                    "title": "Fullstack Software Enginneer",
-                    "startingYear": 2020,
+                    "company": "Clarivate",
+                    "title": "UI/UX/Frontend Engineer",
+                    "startingYear": 2021,
                     "endingYear": null,
                     "showWorkplaceName": false,
                     "showWorkplaceImage": true
                 },
                 {
-                    "company": "AT&T",
-                    "title": "Front End Engineer",
-                    "startingYear": 2019,
-                    "endingYear": 2020,
+                    "company": "DRG",
+                    "title": "Front End Engineer & UI/UX Designer",
+                    "startingYear": 2018,
+                    "endingYear": 2021,
                     "showWorkplaceName": false,
                     "showWorkplaceImage": true
                 },
                 {
-                    "company": "Plus500",
-                    "title": "Front End Engineer",
-                    "startingYear": 2017,
-                    "endingYear": 2019,
-                    "showWorkplaceName": false,
-                    "showWorkplaceImage": true
-                },
-                {
-                    "company": "Intel",
-                    "title": "Student Software Engineer",
-                    "startingYear": 2017,
-                    "endingYear": 2017,
+                    "company": "DSI",
+                    "title": "Software Developer I",
+                    "startingYear": 2015,
+                    "endingYear": 2018,
                     "showWorkplaceName": false,
                     "showWorkplaceImage": true
                 }
@@ -79,7 +74,7 @@
                     "logo": "react",
                     "name": "React",
                     "type": "Component frameworks / libraries",
-                    "isCurrentlyUsing": true
+                    "isCurrentlyUsing": false
                 },
                 {
                     "logo": "angular",
@@ -88,56 +83,32 @@
                     "isCurrentlyUsing": false
                 },
                 {
-                    "logo": "jest",
-                    "name": "Jest",
-                    "type": "Testing frameworks",
-                    "isCurrentlyUsing": true
-                },
-                {
                     "logo": "nodejs",
                     "name": "nodejs",
                     "type": "Backend",
-                    "isCurrentlyUsing": true
+                    "isCurrentlyUsing": false
                 },
                 {
                     "logo": "styled-components",
                     "name": "Styled Components",
                     "type": "UI and Styling",
-                    "isCurrentlyUsing": true
+                    "isCurrentlyUsing": false
                 },
                 {
                     "logo": "js",
                     "name": "JavaScript",
                     "type": "Languages / Supersets",
-                    "isCurrentlyUsing": true
+                    "isCurrentlyUsing": false
                 },
                 {
                     "logo": "typescript",
                     "name": "TypeScript",
                     "type": "Languages / Supersets",
-                    "isCurrentlyUsing": true
-                },
-                {
-                    "logo": "java",
-                    "name": "Java",
-                    "type": "Languages / Supersets",
                     "isCurrentlyUsing": false
                 },
                 {
-                    "logo": "mysql",
-                    "name": "MySQL",
-                    "type": "Databases",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "fluentui",
-                    "name": "Fluent UI",
-                    "type": "UI frameworks",
-                    "isCurrentlyUsing": true
-                },
-                {
-                    "logo": "chakraui",
-                    "name": "Chakra UI",
+                    "logo": "angular-material",
+                    "name": "Angular Material",
                     "type": "UI frameworks",
                     "isCurrentlyUsing": false
                 },

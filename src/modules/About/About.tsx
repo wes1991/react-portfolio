@@ -1,8 +1,9 @@
+import EducationItem, { IEducationItem } from './EducationItem'
+import { StyledCommonSection, StyledParagraph, StyledSecondaryTitle, StyledTitle } from '../../common/styles'
+
+import { IModuleBase } from '../../contracts';
 import React from 'react'
 import styled from 'styled-components';
-import { StyledTitle, StyledCommonSection, StyledParagraph, StyledSecondaryTitle } from '../../common/styles'
-import { IModuleBase } from '../../contracts';
-import EducationItem, { IEducationItem } from './EducationItem'
 
 export interface IAboutProps extends IModuleBase {
     data: any;
@@ -25,7 +26,7 @@ const About = ({data, title, index}: IAboutProps) => {
                 <StyledParagraph paddingTop="0">{data.about}</StyledParagraph>
                 <StyledSecondaryTitle>{data.education.title}</StyledSecondaryTitle>
                 {data.education.data.map((edu: IEducationItem) => 
-                    <EducationItem title={edu.title} institute={edu.institute} startingYear={edu.startingYear} endingYear={edu.endingYear} />
+                    <EducationItem title={edu.title} school={edu.school} institute={edu.institute} startingYear={edu.startingYear} endingYear={edu.endingYear} />
                 )}
             </StyledAbout>
         </StyledCommonSection>
