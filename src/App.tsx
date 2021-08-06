@@ -1,12 +1,14 @@
-import React from 'react';
-import styled from '@emotion/styled';
-import Header from './components/Header/Header';
-import { ChakraProvider } from '@chakra-ui/react';
-import data from './data.json';
 import About, { IAboutProps } from './modules/About/About';
+import Projects, { IProjectProps } from './modules/Projects/Projects';
 import VolunteerWork, { IVolunteerWorkProps } from './modules/VolunteerWork/VolunteerWork';
 import WhatIKnow, { IWhatIKnowProps } from './modules/WhatIKnow/WhatIKnow';
 import WorkExperience, { IWorkExperienceProps } from './modules/WorkExperience/WorkExperience';
+
+import { ChakraProvider } from '@chakra-ui/react';
+import Header from './components/Header/Header';
+import React from 'react';
+import data from './data.json';
+import styled from '@emotion/styled';
 
 const StyledApp = styled.div`
   width: 100vw;
@@ -20,7 +22,8 @@ export enum Module {
   ABOUT = "about",
   WORK_EXPERIENCE = "workExperience",
   WHAT_I_KNOW = "whatIKnow",
-  VOLUNTEERING = "volunteering"
+  VOLUNTEERING = "volunteering",
+  PROJECTS = "projects"
 }
 
 function App() {
@@ -36,8 +39,8 @@ function App() {
               return <WorkExperience {...module as Omit<IWorkExperienceProps,'index'>} index={index} key={index} />
             case Module.WHAT_I_KNOW:
               return <WhatIKnow {...module as Omit<IWhatIKnowProps,'index'>} index={index} key={index} />
-            case Module.VOLUNTEERING:
-              return <VolunteerWork {...module as Omit<IVolunteerWorkProps,'index'>} index={index} key={index} />
+            case Module.PROJECTS:
+              return <Projects {...module as Omit<IProjectProps,'index'>} index={index} key={index}/>
             default:
               return <></>
           }

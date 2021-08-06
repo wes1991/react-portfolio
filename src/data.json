@@ -123,22 +123,11 @@
             "title": "What I Know (and use)"
         },
         {
-            "type": "volunteering",
+            "type": "projects",
             "data": [
-                {
-                    "title": "Tech-Career",
-                    "description": "Tutoring and mentoring students in Web and other CS topics",
-                    "startingYear": "2020",
-                    "endingYear": null
-                },
-                {
-                    "title": "Sahar.org.il",
-                    "description": "Building a landing page for the group",
-                    "startingYear": "2015",
-                    "endingYear": "2015"
-                }
+                {}
             ],
-            "title": "Volunteer Work"
+            "title": "My Projects"
         }
     ]
 }
