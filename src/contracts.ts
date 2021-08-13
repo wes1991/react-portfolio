@@ -1,5 +1,5 @@
 export interface IModuleBase {
-    index: number;
-    title: string;
-    data: any;
+  index: number;
+  title: string;
+  data: any;
 }

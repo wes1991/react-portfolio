@@ -1,133 +1,137 @@
 {
-    "header": {
-        "name": "Wesley Bench",
-        "title": "Front End Engineer & UI/UX Designer",
-        "showProfilePic": false,
-        "cvLink": "http://www.google.com",
-        "linkedIn": "https://www.linkedin.com/in/wesley-bench/",
-        "stackOverflow": "",
-        "facebook": "",
-        "instagram": "",
-        "github": "https://github.com/wes1991"
-    },
-    "modules": [
-        {
-            "type": "about",
-            "data": {
-                "about": "I care about delivering an aesthetically pleasing and functionally optimal user experience. I try to achieve that by working hand-in-hand with designers, marketing, developers, and with the clients directly when possible.",
-                "education": {
-                    "title": "Education",
-                    "data": [
-                        {
-                            "title": "BS Computer Science",
-                            "school": "MSU",
-                            "institute": "Missouri State University",
-                            "startingYear": "2015",
-                            "endingYear": "2012"
-                        },
-                        {
-                            "title": "Associates of Arts",
-                            "school": "OTC",
-                            "institute": "Ozark Technical Community College",
-                            "startingYear": "2010",
-                            "endingYear": "2012"
-                        }
-                    ]
-                }
+  "header": {
+    "name": "Wesley Bench",
+    "title": "Front End Engineer & UI/UX Designer",
+    "showProfilePic": false,
+    "cvLink": "http://www.google.com",
+    "linkedIn": "https://www.linkedin.com/in/wesley-bench/",
+    "stackOverflow": "",
+    "facebook": "",
+    "instagram": "",
+    "github": "https://github.com/wes1991"
+  },
+  "modules": [
+    {
+      "type": "about",
+      "data": {
+        "about": "I care about delivering an aesthetically pleasing and functionally optimal user experience. I try to achieve that by working hand-in-hand with designers, marketing, developers, and with the clients directly when possible. Surprisingly, a lot of the time what I find is the most lacking is simply good communication between two parties. Because of this, I've often taken a role of the diplomat, or the in-between communicator that tries to make sense of the situation and come up with a compromise that makes both parties happy. As I go through my career more and more, one sentiment seems to hold true no matter where I go; Communicating is hard. Also, I can center a div.",
+        "education": {
+          "title": "Education",
+          "data": [
+            {
+              "title": "BS Computer Science",
+              "school": "MSU",
+              "institute": "Missouri State University",
+              "startingYear": "2015",
+              "endingYear": "2012"
             },
-            "title": "About Me"
-        },
-        {
-            "type": "workExperience",
-            "data": [
-                {
-                    "company": "Clarivate",
-                    "title": "UI/UX/Frontend Engineer",
-                    "startingYear": 2021,
-                    "endingYear": null,
-                    "showWorkplaceName": false,
-                    "showWorkplaceImage": true
-                },
-                {
-                    "company": "DRG",
-                    "title": "Front End Engineer & UI/UX Designer",
-                    "startingYear": 2018,
-                    "endingYear": 2021,
-                    "showWorkplaceName": false,
-                    "showWorkplaceImage": true
-                },
-                {
-                    "company": "DSI",
-                    "title": "Software Developer I",
-                    "startingYear": 2015,
-                    "endingYear": 2018,
-                    "showWorkplaceName": false,
-                    "showWorkplaceImage": true
-                }
-            ],
-            "title": "My Work Experience"
-        },
-        {
-            "type": "whatIKnow",
-            "data": [
-                {
-                    "logo": "react",
-                    "name": "React",
-                    "type": "Component frameworks / libraries",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "angular",
-                    "name": "Angular",
-                    "type": "Component frameworks / libraries",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "nodejs",
-                    "name": "nodejs",
-                    "type": "Backend",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "styled-components",
-                    "name": "Styled Components",
-                    "type": "UI and Styling",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "js",
-                    "name": "JavaScript",
-                    "type": "Languages / Supersets",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "typescript",
-                    "name": "TypeScript",
-                    "type": "Languages / Supersets",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "angular-material",
-                    "name": "Angular Material",
-                    "type": "UI frameworks",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "mui",
-                    "name": "Material UI",
-                    "type": "UI frameworks",
-                    "isCurrentlyUsing": false
-                }
-            ],
-            "display": "both",
-            "title": "What I Know (and use)"
-        },
-        {
-            "type": "projects",
-            "data": [
-                {}
-            ],
-            "title": "My Projects"
+            {
+              "title": "Associates of Arts",
+              "school": "OTC",
+              "institute": "Ozark Technical Community College",
+              "startingYear": "2010",
+              "endingYear": "2012"
+            }
+          ]
         }
-    ]
+      },
+      "title": "About Me"
+    },
+    {
+      "type": "workExperience",
+      "data": [
+        {
+          "company": "Clarivate",
+          "title": "UI/UX/Frontend Engineer",
+          "startingYear": 2021,
+          "endingYear": null,
+          "showWorkplaceName": false,
+          "showWorkplaceImage": true
+        },
+        {
+          "company": "DRG",
+          "title": "Front End Engineer & UI/UX Designer",
+          "startingYear": 2018,
+          "endingYear": 2021,
+          "showWorkplaceName": false,
+          "showWorkplaceImage": true
+        },
+        {
+          "company": "DSI",
+          "title": "Software Developer I",
+          "startingYear": 2015,
+          "endingYear": 2018,
+          "showWorkplaceName": false,
+          "showWorkplaceImage": true
+        }
+      ],
+      "title": "My Work Experience"
+    },
+    {
+      "type": "whatIKnow",
+      "data": [
+        {
+          "logo": "angular",
+          "name": "Angular",
+          "type": "Component frameworks / libraries",
+          "isCurrentlyUsing": false
+        },
+        {
+          "logo": "react",
+          "name": "React",
+          "type": "Component frameworks / libraries",
+          "isCurrentlyUsing": false
+        },
+        {
+          "logo": "nodejs",
+          "name": "nodejs",
+          "type": "Backend",
+          "isCurrentlyUsing": false
+        },
+        {
+          "logo": "graphQL",
+          "name": "Graph QL",
+          "type": "Backend",
+          "isCurrentlyUsing": false
+        },
+        {
+          "logo": "js",
+          "name": "JavaScript",
+          "type": "Languages / Supersets",
+          "isCurrentlyUsing": false
+        },
+        {
+          "logo": "typescript",
+          "name": "TypeScript",
+          "type": "Languages / Supersets",
+          "isCurrentlyUsing": false
+        },
+        {
+          "logo": "angular-material",
+          "name": "Angular Material",
+          "type": "UI frameworks",
+          "isCurrentlyUsing": false
+        },
+        {
+          "logo": "ag_grid",
+          "name": "AG Grid",
+          "type": "UI frameworks",
+          "isCurrentlyUsing": false
+        },
+        {
+          "logo": "mui",
+          "name": "Material UI",
+          "type": "UI frameworks",
+          "isCurrentlyUsing": false
+        }
+      ],
+      "display": "both",
+      "title": "What I Know (and use)"
+    },
+    {
+      "type": "projects",
+      "data": [{}],
+      "title": "My Projects"
+    }
+  ]
 }
