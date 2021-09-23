@@ -1,11 +1,5 @@
 import { Button, Link, theme } from "@chakra-ui/react";
-import {
-  FacebookIcon,
-  GithubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  StackOverflowIcon,
-} from "../../common/icons";
+import { GithubIcon, LinkedInIcon, TwitterIcon } from "../../common/icons";
 import { config, themeConfig } from "../../config";
 
 import Navigation from "./Navigation";
@@ -19,9 +13,7 @@ interface IHeaderProps {
     showProfilePic: boolean;
     cvLink: string | null;
     linkedIn?: string;
-    stackOverflow?: string;
-    facebook?: string;
-    instagram?: string;
+    twitter?: string;
     github?: string;
   };
   modules: any[];
@@ -69,17 +61,7 @@ const StyledSocialLinks = styled.div`
 `;
 
 const Header = ({
-  data: {
-    name,
-    title,
-    showProfilePic,
-    cvLink,
-    linkedIn,
-    stackOverflow,
-    facebook,
-    instagram,
-    github,
-  },
+  data: { name, title, showProfilePic, cvLink, linkedIn, twitter, github },
   modules,
 }: IHeaderProps) => {
   return (
@@ -102,7 +84,7 @@ const Header = ({
           My Resume
         </Button>
       )}
-      {(github || linkedIn || instagram || facebook || stackOverflow) && (
+      {(github || linkedIn || twitter) && (
         <StyledSocialLinks>
           {github && (
             <Link href={github} isExternal={true}>
@@ -114,19 +96,9 @@ const Header = ({
               <LinkedInIcon />
             </Link>
           )}
-          {instagram && (
-            <Link href={instagram} isExternal={true}>
-              <InstagramIcon />
-            </Link>
-          )}
-          {facebook && (
-            <Link href={facebook} isExternal={true}>
-              <FacebookIcon />
-            </Link>
-          )}
-          {stackOverflow && (
-            <Link href={stackOverflow} isExternal={true}>
-              <StackOverflowIcon />
+          {twitter && (
+            <Link href={twitter} isExternal={true}>
+              <TwitterIcon />
             </Link>
           )}
         </StyledSocialLinks>
