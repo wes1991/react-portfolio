@@ -1,10 +1,7 @@
 import { Button, Collapse } from "@chakra-ui/react";
 import React, { useState } from "react";
 import { StyledCommonSection, StyledTitle } from "../../common/styles";
-import WhatIKnowItem, {
-  EWhatIKnowItemType,
-  IWhatIKnowItem,
-} from "./WhatIKnowItem";
+import WhatIKnowItem, { IWhatIKnowItem, WhatIKnowItemType } from "./WhatIKnowItem";
 import { config, themeConfig } from "../../config";
 
 import { IModuleBase } from "../../contracts";
@@ -22,12 +19,6 @@ const StyledWhatIKnowList = styled.div`
   width: 100%;
 `;
 
-enum EWhatIKnowDisplay {
-  LIST = "list",
-  MARQUEE = "marquee",
-  BOTH = "both",
-}
-
 export interface IWhatIKnowProps extends IModuleBase {
   data: IWhatIKnowItem[];
 }
@@ -43,27 +34,39 @@ const WhatIKnow = ({ data, title, index }: IWhatIKnowProps) => {
         variant="outline"
         onClick={() => setShowList(!showList)}
       >
-        {showList ? 'Hide list' : 'Show List'}
+        {showList ? "Hide list" : "Show List"}
       </Button>
       <StyledWhatIKnow>
-          <Marquee speed={50} play={false} pauseOnHover={false}>
-            {data.map((item, index) => (
-              <WhatIKnowItem
-                key={index}
-                logo={item.logo}
-                name={item.name}
-                isCurrentlyUsing={item.isCurrentlyUsing}
-              />
-            ))}
-          </Marquee>
-          <Collapse in={showList} animateOpacity>
-            <StyledWhatIKnowList>
-                {(Object.keys(EWhatIKnowItemType) as Array<keyof typeof EWhatIKnowItemType>).map((key, index) => {
-                    const whatIKnowTypeGroup = data.filter((wik) => wik.type === EWhatIKnowItemType[key]);
-                    return whatIKnowTypeGroup.length > 0 && <WhatIKnowListGroupContainer key={index} title={EWhatIKnowItemType[key]} group={whatIKnowTypeGroup}/>
-                })}
-            </StyledWhatIKnowList>
-          </Collapse>
+        <Marquee speed={50} play={false} pauseOnHover={false}>
+          {data.map((item, index) => (
+            <WhatIKnowItem
+              key={index}
+              logo={item.logo}
+              name={item.name}
+              isCurrentlyUsing={item.isCurrentlyUsing}
+            />
+          ))}
+        </Marquee>
+        <Collapse in={showList} animateOpacity>
+          <StyledWhatIKnowList>
+            {(Object.keys(WhatIKnowItemType) as Array<keyof typeof WhatIKnowItemType>).map(
+              (key, index) => {
+                const whatIKnowTypeGroup = data.filter(
+                  (wik) => wik.type === WhatIKnowItemType[key]
+                );
+                return (
+                  whatIKnowTypeGroup.length > 0 && (
+                    <WhatIKnowListGroupContainer
+                      key={index}
+                      title={WhatIKnowItemType[key]}
+                      group={whatIKnowTypeGroup}
+                    />
+                  )
+                );
+              }
+            )}
+          </StyledWhatIKnowList>
+        </Collapse>
       </StyledWhatIKnow>
     </StyledCommonSection>
   );

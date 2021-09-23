@@ -1,12 +1,7 @@
 import About, { IAboutProps } from "./modules/About/About";
 import Projects, { IProjectProps } from "./modules/Projects/Projects";
-import VolunteerWork, {
-  IVolunteerWorkProps,
-} from "./modules/VolunteerWork/VolunteerWork";
 import WhatIKnow, { IWhatIKnowProps } from "./modules/WhatIKnow/WhatIKnow";
-import WorkExperience, {
-  IWorkExperienceProps,
-} from "./modules/WorkExperience/WorkExperience";
+import WorkExperience, { IWorkExperienceProps } from "./modules/WorkExperience/WorkExperience";
 
 import { ChakraProvider } from "@chakra-ui/react";
 import Header from "./components/Header/Header";
@@ -39,11 +34,7 @@ function App() {
           switch (module.type) {
             case Module.ABOUT:
               return (
-                <About
-                  {...(module as Omit<IAboutProps, "index">)}
-                  index={index}
-                  key={index}
-                />
+                <About {...(module as Omit<IAboutProps, "index">)} index={index} key={index} />
               );
             case Module.WORK_EXPERIENCE:
               return (
@@ -63,11 +54,7 @@ function App() {
               );
             case Module.PROJECTS:
               return (
-                <Projects
-                  {...(module as Omit<IProjectProps, "index">)}
-                  index={index}
-                  key={index}
-                />
+                <Projects {...(module as Omit<IProjectProps, "index">)} index={index} key={index} />
               );
             default:
               return <></>;

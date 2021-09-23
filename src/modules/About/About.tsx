@@ -32,6 +32,7 @@ const About = ({ data, title, index }: IAboutProps) => {
         <StyledSecondaryTitle>{data.education.title}</StyledSecondaryTitle>
         {data.education.data.map((edu: IEducationItem) => (
           <EducationItem
+            key={edu.title}
             title={edu.title}
             school={edu.school}
             institute={edu.institute}

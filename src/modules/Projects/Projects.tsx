@@ -7,7 +7,6 @@ import {
 
 import { IModuleBase } from "../../contracts";
 import React from "react";
-import VolunteerItem from "../VolunteerWork/VolunteerItem";
 import { config } from "../../config";
 
 export interface IProjectProps extends IModuleBase {}

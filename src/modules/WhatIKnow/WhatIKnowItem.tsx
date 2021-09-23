@@ -26,8 +26,8 @@ const StyledBadgeContainer = styled.div`
   z-index: 100;
 `;
 
-export enum EWhatIKnowItemType {
-  COMPONENT_FRAMRWORKS_LIBRARIES = "Component frameworks / libraries",
+export enum WhatIKnowItemType {
+  COMPONENT_FRAMEWORKS_LIBRARIES = "Component frameworks / libraries",
   TESTING_FRAMEWORKS = "Testing frameworks",
   BACKEND = "Backend",
   DATABASES = "Databases",
@@ -39,15 +39,11 @@ export enum EWhatIKnowItemType {
 export interface IWhatIKnowItem {
   logo: string;
   name: string;
-  type?: EWhatIKnowItemType;
+  type?: WhatIKnowItemType;
   isCurrentlyUsing?: boolean;
 }
 
-const WhatIKnowItem = ({
-  logo,
-  name,
-  isCurrentlyUsing = false,
-}: IWhatIKnowItem) => {
+const WhatIKnowItem = ({ logo, name, isCurrentlyUsing = false }: IWhatIKnowItem) => {
   return (
     <StyledWhatIKnowItem>
       {isCurrentlyUsing && (
