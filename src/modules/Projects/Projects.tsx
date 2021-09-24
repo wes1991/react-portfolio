@@ -2,6 +2,7 @@ import {
   StyledBackgroundCover,
   StyledBackgroundTopper,
   StyledCommonSection,
+  StyledParagraph,
   StyledTitle,
 } from "../../common/styles";
 
@@ -20,7 +21,7 @@ const Projects = ({ data, title, index }: IProjectProps) => {
       <StyledBackgroundCover fadeAmount={40} />
       <StyledBackgroundTopper>
         <StyledTitle>{title}</StyledTitle>
-        <h1>Coming Soon</h1>
+        <StyledParagraph>Coming Soon</StyledParagraph>
       </StyledBackgroundTopper>
     </StyledCommonSection>
   );
