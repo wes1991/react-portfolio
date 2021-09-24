@@ -1,170 +1,168 @@
 {
-    "header": {
-        "name": "Wesley Bench",
-        "title": "Frontend Engineer | User Experience Designer | Product Designer | Communicator",
-        "showProfilePic": false,
-        "cvLink": "https://drive.google.com/file/d/1grWKbOunz7YUWD_NNIrYZpQt21_LBcwN/view?usp=sharing",
-        "linkedIn": "https://www.linkedin.com/in/wesley-bench/",
-        "twitter": "https://twitter.com/wesleybenchier",
-        "github": "https://github.com/wes1991"
-    },
-    "modules": [
-        {
-            "type": "about",
-            "data": {
-                "about": "I care about delivering an aesthetically pleasing and functionally optimal user experience. I try to achieve that by working hand-in-hand with designers, marketing, developers, and with the clients directly when possible. Surprisingly, a lot of the time what I find is the most lacking is simply good communication between two parties. Because of this, I've often taken a role of the diplomat, or the in-between communicator that tries to make sense of the situation and come up with a compromise that makes both parties happy. As I go through my career more and more, one sentiment seems to hold true no matter where I go; Communicating is hard. Also, I can center a div.",
-                "education": {
-                    "title": "Education",
-                    "data": [
-                        {
-                            "title": "Associates of Arts",
-                            "school": "OTC",
-                            "institute": "Ozark Technical Community College",
-                            "startingYear": "2010",
-                            "endingYear": "2012"
-                        },
-                        {
-                            "title": "BS Computer Science",
-                            "school": "MSU",
-                            "institute": "Missouri State University",
-                            "startingYear": "2012",
-                            "endingYear": "2015"
-                        }
-                    ]
-                }
-            },
-            "title": "About Me"
-        },
-        {
-            "type": "workExperience",
-            "data": [
-                {
-                    "company": "DSI",
-                    "title": "Software Developer",
-                    "startingYear": 2015,
-                    "endingYear": 2018,
-                    "showWorkplaceName": false,
-                    "showWorkplaceImage": true,
-                    "description": "I worked with iOS team to build out Mobile App, took on greater Full Stack responsibilities and helped in the Backend of a large server-based app with frontend applications connecting to them."
-                },
-                {
-                    "company": "DRG",
-                    "title": "Front End Engineer & User Experience Designer",
-                    "startingYear": 2018,
-                    "endingYear": 2021,
-                    "showWorkplaceName": false,
-                    "showWorkplaceImage": true,
-                    "description": "I was involved here in a start up under DRG's umbrella. Like many startups, my experience here rapidly evolved into wearing many hats. I worked on our React Frontend here, bringing an old legacy product into the modern enterprise world using newer technologies. I also created and delivered High Fidelity mock ups of the product, as well as actionable prototypes alongside the leaders of the company. Being a frontend developer here as well, I then implemented my own designs, which helped a great deal in ensuring the quality of the delivery."
-                },
-                {
-                    "company": "Clarivate",
-                    "title": "Front End Engineer & User Experience Designer",
-                    "startingYear": 2021,
-                    "endingYear": null,
-                    "showWorkplaceName": false,
-                    "showWorkplaceImage": true,
-                    "description": "I've been working hand-in-hand with both engineers and Clarivate's many designers across multiple platforms in order to deliver a combined Design System and Component Library that improves the time-to-market for Clarivate's subsidiary companies, as well as provide a one-stop-shop for all things brand and design related company-wide."
-                }
-            ],
-            "title": "My Work Experience"
-        },
-        {
-            "type": "whatIKnow",
-            "data": [
-                {
-                    "logo": "react",
-                    "name": "React",
-                    "type": "Component Frameworks",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "angular",
-                    "name": "Angular",
-                    "type": "Component Frameworks",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "nodejs",
-                    "name": "nodejs",
-                    "type": "Backend / API",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "npm",
-                    "name": "npm",
-                    "type": "Backend / API",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "yarn",
-                    "name": "yarn",
-                    "type": "Backend / API",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "graphQL",
-                    "name": "Graph QL",
-                    "type": "Backend / API",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "apollo",
-                    "name": "Apollo Client",
-                    "type": "Backend / API",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "js",
-                    "name": "JavaScript",
-                    "type": "Languages",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "typescript",
-                    "name": "TypeScript",
-                    "type": "Languages",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "angular-material",
-                    "name": "Angular Material",
-                    "type": "UI frameworks",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "ag_grid",
-                    "name": "AG Grid",
-                    "type": "UI frameworks",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "mui",
-                    "name": "Material UI",
-                    "type": "UI frameworks",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "storybook",
-                    "name": "Storybook",
-                    "type": "UI frameworks",
-                    "isCurrentlyUsing": false
-                },
-                {
-                    "logo": "material",
-                    "name": "Material Design",
-                    "type": "Design Systems",
-                    "isCurrentlyUsing": false
-                }
-            ],
-            "display": "both",
-            "title": "My Knowledge"
-        },
-        {
-            "type": "projects",
-            "data": [
-                {}
-            ],
-            "title": "My Projects"
-        }
-    ]
+	"header": {
+		"name": "Wesley Bench",
+		"title": "Frontend Engineer | User Experience Designer | Product Designer | Communicator",
+		"showProfilePic": false,
+		"cvLink": "https://drive.google.com/file/d/1grWKbOunz7YUWD_NNIrYZpQt21_LBcwN/view?usp=sharing",
+		"linkedIn": "https://www.linkedin.com/in/wesley-bench/",
+		"twitter": "https://twitter.com/wesleybenchier",
+		"github": "https://github.com/wes1991"
+	},
+	"modules": [
+		{
+			"type": "about",
+			"data": {
+				"about": "I care about delivering an aesthetically pleasing and functionally optimal user experience. I try to achieve that by working hand-in-hand with designers, marketing, developers, and with the clients directly when possible. Surprisingly, a lot of the time what I find is the most lacking is simply good communication between two parties. Because of this, I've often taken a role of the diplomat, or the in-between communicator that tries to make sense of the situation and come up with a compromise that makes both parties happy. As I go through my career more and more, one sentiment seems to hold true no matter where I go; Communicating is hard. Also, I can center a div.",
+				"education": {
+					"title": "Education",
+					"data": [
+						{
+							"title": "Associates of Arts",
+							"school": "OTC",
+							"institute": "Ozark Technical Community College",
+							"startingYear": "2010",
+							"endingYear": "2012"
+						},
+						{
+							"title": "BS Computer Science",
+							"school": "MSU",
+							"institute": "Missouri State University",
+							"startingYear": "2012",
+							"endingYear": "2015"
+						}
+					]
+				}
+			},
+			"title": "About Me"
+		},
+		{
+			"type": "workExperience",
+			"data": [
+				{
+					"company": "DSI",
+					"title": "Software Developer",
+					"startingYear": 2015,
+					"endingYear": 2018,
+					"showWorkplaceName": false,
+					"showWorkplaceImage": true,
+					"description": "I worked with iOS team to build out Mobile App, took on greater Full Stack responsibilities and helped in the Backend of a large server-based app with frontend applications connecting to them."
+				},
+				{
+					"company": "DRG",
+					"title": "Front End Engineer & User Experience Designer",
+					"startingYear": 2018,
+					"endingYear": 2021,
+					"showWorkplaceName": false,
+					"showWorkplaceImage": true,
+					"description": "I was involved here in a start up under DRG's umbrella. Like many startups, my experience here rapidly evolved into wearing many hats. I worked on our React Frontend here, bringing an old legacy product into the modern enterprise world using newer technologies. I also created and delivered High Fidelity mock ups of the product, as well as actionable prototypes alongside the leaders of the company. Being a frontend developer here as well, I then implemented my own designs, which helped a great deal in ensuring the quality of the delivery."
+				},
+				{
+					"company": "Clarivate",
+					"title": "Front End Engineer & User Experience Designer",
+					"startingYear": 2021,
+					"endingYear": null,
+					"showWorkplaceName": false,
+					"showWorkplaceImage": true,
+					"description": "I've been working hand-in-hand with both engineers and Clarivate's many designers across multiple platforms in order to deliver a combined Design System and Component Library that improves the time-to-market for Clarivate's subsidiary companies, as well as provide a one-stop-shop for all things brand and design related company-wide."
+				}
+			],
+			"title": "My Work Experience"
+		},
+		{
+			"type": "whatIKnow",
+			"data": [
+				{
+					"logo": "react",
+					"name": "React",
+					"type": "Component Frameworks",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "angular",
+					"name": "Angular",
+					"type": "Component Frameworks",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "nodejs",
+					"name": "nodejs",
+					"type": "Backend / API",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "npm",
+					"name": "npm",
+					"type": "Backend / API",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "yarn",
+					"name": "yarn",
+					"type": "Backend / API",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "graphQL",
+					"name": "Graph QL",
+					"type": "Backend / API",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "apollo",
+					"name": "Apollo Client",
+					"type": "Backend / API",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "js",
+					"name": "JavaScript",
+					"type": "Languages",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "typescript",
+					"name": "TypeScript",
+					"type": "Languages",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "angular-material",
+					"name": "Angular Material",
+					"type": "UI frameworks",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "ag_grid",
+					"name": "AG Grid",
+					"type": "UI frameworks",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "mui",
+					"name": "Material UI",
+					"type": "UI frameworks",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "storybook",
+					"name": "Storybook",
+					"type": "UI frameworks",
+					"isCurrentlyUsing": false
+				},
+				{
+					"logo": "material",
+					"name": "Material Design",
+					"type": "Design Systems",
+					"isCurrentlyUsing": false
+				}
+			],
+			"display": "both",
+			"title": "My Knowledge"
+		},
+		{
+			"type": "projects",
+			"data": [{}],
+			"title": "My Projects"
+		}
+	]
 }
