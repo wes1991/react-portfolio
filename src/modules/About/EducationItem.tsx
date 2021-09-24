@@ -38,7 +38,7 @@ const EducationItem = ({
   return (
     <StyledEducationItem>
       <img
-        src={`../assets/logos/${school.toLowerCase()}.webp`}
+        src={`./assets/logos/${school.toLowerCase()}.webp`}
         alt={institute.toLowerCase()}
         style={{ margin: 8 }}
       />

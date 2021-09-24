@@ -53,7 +53,7 @@ const WorkplaceItem: React.FC<Props> = (props) => {
     <StyledWorkplaceItem>
       {showWorkplaceImage && (
         <img
-          src={`../assets/logos/${company.toLowerCase()}.webp`}
+          src={`./assets/logos/${company.toLowerCase()}.webp`}
           alt={company.toLowerCase()}
           style={{ margin: 8 }}
         />
