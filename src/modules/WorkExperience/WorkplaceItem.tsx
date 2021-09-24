@@ -32,15 +32,23 @@ const StyledWorkplaceDates = styled.div`
   padding-bottom: 0.5em;
 `;
 
-const WorkplaceItem = ({
-  company,
-  title,
-  startingYear,
-  endingYear,
-  showWorkplaceName = false,
-  showWorkplaceImage = false,
-  isLast = false,
-}: IWorkplace & { isLast: boolean }) => {
+const StyledDescription = styled.div`
+max-width: 1000px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 0 auto;
+text-align: center;
+`;
+
+type Props = {
+  job: IWorkplace;
+  isLast: boolean;
+}
+
+const WorkplaceItem: React.FC<Props> = (props) => {
+  const {showWorkplaceImage, company, showWorkplaceName, title, endingYear, startingYear, description} = props.job;
   return (
     <StyledWorkplaceItem>
       {showWorkplaceImage && (
@@ -55,7 +63,10 @@ const WorkplaceItem = ({
       <StyledWorkplaceDates>
         {startingYear} - {endingYear ?? "Present"}
       </StyledWorkplaceDates>
-      {!isLast && <StyledWorkplaceLine />}
+      <StyledDescription>
+        {description}
+      </StyledDescription>
+      {!props.isLast && <StyledWorkplaceLine />}
     </StyledWorkplaceItem>
   );
 };

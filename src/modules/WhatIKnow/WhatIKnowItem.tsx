@@ -27,13 +27,13 @@ const StyledBadgeContainer = styled.div`
 `;
 
 export enum WhatIKnowItemType {
-  COMPONENT_FRAMEWORKS_LIBRARIES = "Component frameworks / libraries",
+  COMPONENT_FRAMEWORKS = "Component Frameworks",
   TESTING_FRAMEWORKS = "Testing frameworks",
-  BACKEND = "Backend",
+  BACKEND_API = "Backend / API",
   DATABASES = "Databases",
-  UI_STYLING = "UI and Styling",
+  DESIGN_SYSTEMS = "Design Systems",
   UI_FRAMEWORKS = "UI frameworks",
-  LANGUAGES_SUPERSETS = "Languages / Supersets",
+  LANGUAGES = "Languages",
 }
 
 export interface IWhatIKnowItem {

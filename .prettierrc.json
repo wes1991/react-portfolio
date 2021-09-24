@@ -1,6 +1,6 @@
 {
     "arrowParens": "always",
     "trailingComma": "es5",
-    "useTabs": false,
-    "printWidth": 100
+    "useTabs": true,
+    "printWidth": 160
 }

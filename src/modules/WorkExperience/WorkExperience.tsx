@@ -14,6 +14,7 @@ export interface IWorkplace {
   title: string;
   startingYear: number;
   endingYear: number | null;
+  description?: string;
   showWorkplaceName?: boolean;
   showWorkplaceImage?: boolean;
 }
@@ -30,8 +31,8 @@ const WorkExperience = ({ data, title, index }: IWorkExperienceProps) => {
       <StyledBackgroundCover fadeAmount={40} />
       <StyledBackgroundTopper>
         <StyledTitle>{title}</StyledTitle>
-        {data.map((wp, index) => (
-          <Workplace key={index} {...wp} isLast={index === data.length - 1} />
+        {data.map((job, index) => (
+          <Workplace key={index} job={job} isLast={index === data.length - 1} />
         ))}
       </StyledBackgroundTopper>
     </StyledCommonSection>

@@ -1,9 +1,9 @@
 {
     "header": {
         "name": "Wesley Bench",
-        "title": "Front End Engineer & UI/UX Designer",
+        "title": "Frontend Engineer | User Experience Designer | Product Designer | Communicator",
         "showProfilePic": false,
-        "cvLink": "https://drive.google.com/file/d/19IjYSdvPDX2TX0Wo7Xm2lBmifBG3Z58o/view?usp=sharing",
+        "cvLink": "https://drive.google.com/file/d/1grWKbOunz7YUWD_NNIrYZpQt21_LBcwN/view?usp=sharing",
         "linkedIn": "https://www.linkedin.com/in/wesley-bench/",
         "twitter": "https://twitter.com/wesleybenchier",
         "github": "https://github.com/wes1991"
@@ -40,29 +40,31 @@
             "data": [
                 {
                     "company": "DSI",
-                    "title": "Software Developer I",
+                    "title": "Software Developer",
                     "startingYear": 2015,
                     "endingYear": 2018,
                     "showWorkplaceName": false,
-                    "showWorkplaceImage": true
+                    "showWorkplaceImage": true,
+                    "description": "I worked with iOS team to build out Mobile App, took on greater Full Stack responsibilities and helped in the Backend of a large server-based app with frontend applications connecting to them."
                 },
                 {
                     "company": "DRG",
-                    "title": "Front End Engineer & UI/UX Designer",
+                    "title": "Front End Engineer & User Experience Designer",
                     "startingYear": 2018,
                     "endingYear": 2021,
                     "showWorkplaceName": false,
-                    "showWorkplaceImage": true
+                    "showWorkplaceImage": true,
+                    "description": "I was involved here in a start up under DRG's umbrella. Like many startups, my experience here rapidly evolved into wearing many hats. I worked on our React Frontend here, bringing an old legacy product into the modern enterprise world using newer technologies. I also created and delivered High Fidelity mock ups of the product, as well as actionable prototypes alongside the leaders of the company. Being a frontend developer here as well, I then implemented my own designs, which helped a great deal in ensuring the quality of the delivery."
                 },
                 {
                     "company": "Clarivate",
-                    "title": "UI/UX/Frontend Engineer",
+                    "title": "Front End Engineer & User Experience Designer",
                     "startingYear": 2021,
                     "endingYear": null,
                     "showWorkplaceName": false,
-                    "showWorkplaceImage": true
+                    "showWorkplaceImage": true,
+                    "description": "I've been working hand-in-hand with both engineers and Clarivate's many designers across multiple platforms in order to deliver a combined Design System and Component Library that improves the time-to-market for Clarivate's subsidiary companies, as well as provide a one-stop-shop for all things brand and design related company-wide."
                 }
-
             ],
             "title": "My Work Experience"
         },
@@ -70,39 +72,57 @@
             "type": "whatIKnow",
             "data": [
                 {
-                    "logo": "angular",
-                    "name": "Angular",
-                    "type": "Component frameworks / libraries",
+                    "logo": "react",
+                    "name": "React",
+                    "type": "Component Frameworks",
                     "isCurrentlyUsing": false
                 },
                 {
-                    "logo": "react",
-                    "name": "React",
-                    "type": "Component frameworks / libraries",
+                    "logo": "angular",
+                    "name": "Angular",
+                    "type": "Component Frameworks",
                     "isCurrentlyUsing": false
                 },
                 {
                     "logo": "nodejs",
                     "name": "nodejs",
-                    "type": "Backend",
+                    "type": "Backend / API",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "npm",
+                    "name": "npm",
+                    "type": "Backend / API",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "yarn",
+                    "name": "yarn",
+                    "type": "Backend / API",
                     "isCurrentlyUsing": false
                 },
                 {
                     "logo": "graphQL",
                     "name": "Graph QL",
-                    "type": "Backend",
+                    "type": "Backend / API",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "apollo",
+                    "name": "Apollo Client",
+                    "type": "Backend / API",
                     "isCurrentlyUsing": false
                 },
                 {
                     "logo": "js",
                     "name": "JavaScript",
-                    "type": "Languages / Supersets",
+                    "type": "Languages",
                     "isCurrentlyUsing": false
                 },
                 {
                     "logo": "typescript",
                     "name": "TypeScript",
-                    "type": "Languages / Supersets",
+                    "type": "Languages",
                     "isCurrentlyUsing": false
                 },
                 {
@@ -122,10 +142,22 @@
                     "name": "Material UI",
                     "type": "UI frameworks",
                     "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "storybook",
+                    "name": "Storybook",
+                    "type": "UI frameworks",
+                    "isCurrentlyUsing": false
+                },
+                {
+                    "logo": "material",
+                    "name": "Material Design",
+                    "type": "Design Systems",
+                    "isCurrentlyUsing": false
                 }
             ],
             "display": "both",
-            "title": "What I Know (and use)"
+            "title": "My Knowledge"
         },
         {
             "type": "projects",

@@ -29,7 +29,7 @@ const WhatIKnowListGroupContainer = ({
       <StyledSecondaryTitle>{title}</StyledSecondaryTitle>
       <StyledListGroupContainer>
         {group.map((item, index) => (
-          <span>
+          <span key={index}>
             {item.name}{" "}
             {item.isCurrentlyUsing && (
               <Badge variant="solid" colorScheme="red">
