@@ -25,7 +25,7 @@ const Navigation = ({ modules }: INavigationProps) => {
 				<Drawer placement="left" isOpen={isNavOpen} onClose={() => setIsNavOpen(false)} motionPreset="scale">
 					<DrawerOverlay />
 					<DrawerContent>
-						<DrawerHeader borderBottomWidth="1px">Nir Tzezana</DrawerHeader>
+						<DrawerHeader borderBottomWidth="1px">Wesley Bench</DrawerHeader>
 						<DrawerBody>
 							{modules.map((module, index) => (
 								<Button
